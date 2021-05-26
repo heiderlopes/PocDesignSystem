@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GenesisButton">
+        <attr name="text" format="string" />
+        <attr name="loading" format="boolean" />
+        <attr name="lottie_resId" format="integer" />
+        <attr name="type" format="enum">
+            <enum name="primary" value="0"/>
+            <enum name="secondary" value="1"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>
